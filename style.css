@@ -17,6 +17,10 @@ ul {
   margin: 0;
 }
 
+header {
+  position: static;
+}
+
 .log-in-link {
   display: inline-block;
 }
@@ -30,7 +34,7 @@ li:nth-child(2) {
 }
 
 .logo {
-  padding: 20px 100px 0;
+  padding: 10px 10px 0;
 }
 
 .logo-link {
@@ -61,7 +65,7 @@ li:nth-child(2) {
   text-align: center;
 }
 
-.carousel-inner {
+/* .carousel-inner {
   width: 100%;
   height: 500px;
   position: relative;
@@ -73,22 +77,38 @@ li:nth-child(2) {
   min-width: 100%;
   top: 1rem;
   bottom: 10rem;
-}
+} */
 
 .header {
-  padding: 2rem 100px;
+  padding: 1.5rem 10px;
   background: rgba(0, 0, 0, 0.05);
 }
 
 .post-card {
-  margin: 20px;
-  display: flex;
-  padding: 20px 100px 0;
+  padding: 10px 10px;
+  width: 100%;
+  letter-spacing: 0.5px;
+  margin: 1.5rem 0;
+  line-height: 1.5;
+}
+
+.post-card img {
+  width: 100%;
+  max-height: 300px;
 }
 
 .right-card {
+}
+
+/* .post-card {
+  margin: 20px;
+  display: flex;
+  padding: 20px 100px 0;
+} */
+
+/* .right-card {
   padding-top: 20px;
   padding-left: 20px;
   width: 40%;
   line-height: 1.5;
-}
+} */
