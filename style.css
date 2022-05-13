@@ -34,10 +34,6 @@ ul {
   margin: 0;
 }
 
-header {
-  position: static;
-}
-
 .log-in-link {
   display: inline-block;
 }
@@ -104,6 +100,14 @@ li:nth-child(2) {
 .header {
   padding: 1.5rem 10px;
   background: rgba(0, 0, 0, 0.05);
+}
+
+#header-section {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
 }
 
 .post-card {
