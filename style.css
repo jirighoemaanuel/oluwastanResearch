@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --text-clr: #777777;
+}
+
 a {
   text-decoration: none;
 }
@@ -35,6 +39,11 @@ li:nth-child(2) {
 
 .logo {
   padding: 10px 10px 0;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.logo p {
+  color: #777777;
 }
 
 .logo-link {
@@ -98,6 +107,17 @@ li:nth-child(2) {
 }
 
 .right-card {
+  margin: 1.7rem 0;
+}
+
+.right-card * {
+  margin: 1.5rem 0;
+}
+
+.right-card p {
+  font-size: 0.8rem;
+  color: var(--text-clr);
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 /* .post-card {
