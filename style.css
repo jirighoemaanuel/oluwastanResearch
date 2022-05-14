@@ -138,6 +138,10 @@ li:nth-child(2) {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
+.recent-posts {
+  padding: 0 1.7rem;
+}
+
 /* .post-card {
   margin: 20px;
   display: flex;
