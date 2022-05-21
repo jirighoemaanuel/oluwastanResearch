@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+/* build your own custom Bootstrap theme:
+   https://themestr.app
+*/
+:root {
+  --hue-1: 257;
+  --hue-2: 47;
+  --main-color-1: hsl(var(--hue-1), 100%, 60%);
+  --main-color-dark-1: hsl(var(--hue-1), 69%, 50%);
+  --main-color-2: hsl(var(--hue-2), 100%, 61%);
+  --main-color-dark-2: hsl(var(--hue-2), 82%, 55%);
+  --section-padding: 7rem;
+}
+
+body {
+  --bg-color: hsl(var(--hue-1), 100%, 97%);
+  --bg-color-1: hsl(var(--hue-1), 100%, 95.5%);
+  --bg-color-2: #fff;
+  --bg-color-3: hsl(var(--hue-1), 100%, 98%);
+  --bg-color-transparent: rgba(255, 255, 255, 0.6);
+  --bg-color-transparent2: rgba(255, 255, 255);
+  --heading-color: hsl(var(--hue-1), 61%, 24%);
+  --text-color: hsl(var(--hue-1), 17%, 63%);
+}
+
+body.dark {
+  --bg-color: hsl(var(--hue-1), 19%, 15%);
+  --bg-color-1: hsl(var(--hue-1), 21%, 11%);
+  --bg-color-2: hsl(var(--hue-1), 23%, 19%);
+  --bg-color-3: hsl(var(--hue-1), 23%, 24%);
+  --bg-color-transparent: hsla(var(--hue-1), 23%, 19%, 0.6);
+  --heading-color: hsl(var(--hue-1), 100%, 95%);
+  --text-color: hsl(var(--hue-1), 14%, 51%);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 1.2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color-1);
+}
+
+header {
+  background-color: var(--bg-color);
+  position: sticky;
+  width: 100%;
+  overflow: hidden;
+  padding: 1rem 0;
+  top: 0;
+  /* height: 100vh; */
+  z-index: 10;
+}
+
+main {
+  margin-top: 0.5rem;
+}
+
+.header-height {
+  height: 100vh;
+}
+
+.logo-and-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 1rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.logo span {
+  color: cornflowerblue;
+}
+
+.open-btn {
+  margin: 1rem;
+}
+
+.open-btn:hover {
+  cursor: pointer;
+}
+
+.close-btn {
+  margin: 1rem;
+}
+
+.close-btn:hover {
+  cursor: pointer;
+}
+
+.btn-hide {
+  display: none;
+}
+
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  padding: 1.5rem 1rem;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.navigation {
+  display: none;
+}
+
+.nav-link {
+  margin: 1rem;
+  color: black;
+}
+
+hr {
+  z-index: -1;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  padding-top: 2rem;
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 0.7rem;
+}
+
+.log-in-link {
+  display: inline-block;
+}
+
+.log-in-link a {
+  color: white;
+}
+
+.post-card {
+  padding: 10px 10px;
+  width: 100%;
+  letter-spacing: 0.5px;
+  margin: 1.5rem 0;
+  line-height: 1.5;
+}
+
+.post-card img {
+  width: 100%;
+  max-height: 300px;
+}
+
+.right-card {
+  margin: 1.7rem 0;
+}
+
+.right-card * {
+  margin: 1.5rem 0;
+}
+
+.right-card p {
+  font-size: 0.8rem;
+  color: var(--text-clr);
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.recent-posts {
+  padding: 0 0.5rem;
+}
