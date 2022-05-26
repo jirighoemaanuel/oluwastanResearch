@@ -53,7 +53,7 @@ body {
   font-size: 1.2em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-color: var(--bg-color-1);
+  background-color: var(--bg-color-transparent);
 }
 
 header {
