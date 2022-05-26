@@ -14,88 +14,57 @@
     />
     <link rel="stylesheet" href="css/style.css" />
 
-    <!-- Bootstrap functionality -->
+    <!-- font-awesome -->
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      src="https://kit.fontawesome.com/6d7cc2a6c6.js"
       crossorigin="anonymous"
     ></script>
 
     <title>Document</title>
   </head>
   <body>
-    <div class="log-in bg-dark">
-      <ul>
-        <li class="log-in-link">
-          <a href="#">Log in</a>
-        </li>
-        <li class="log-in-link">
-          <a href="#" class="">Log in</a>
-        </li>
-      </ul>
-    </div>
-    <header id="header-section">
-      <!-- Logo div -->
-      <div class="logo">
-        <a class="logo-link" href="#">OLOWOSTAN LAB</a>
-        <p>Water-soil-structure interactions</p>
+    <header class="header">
+      <div class="logo-and-btn">
+        <h2 class="logo">Olowostan<span>lab</span></h2>
+
+        <div class="open-btn">
+          <i class="fa-solid fa-bars fa-2xl"></i>
+        </div>
+        <div class="close-btn btn-hide">
+          <i class="fa-solid fa-xmark fa-2xl"></i>
+        </div>
       </div>
 
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light navi">
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="navigation collapse navbar-collapse"
-            id="navbarNavDropdown"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">OLOWOSTAN</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">REASEARCH</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link research-team" href="#">REASEARCH TEAM</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">FACILITIES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">PUBLICATION</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">TEACHING</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">GALLERY</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+      <nav id="nav" class="navigation">
+        <ul class="nav-links">
+          <hr />
+          <li class="nav-link">Home</li>
+          <hr />
+          <li class="nav-link">Olowostan</li>
+          <hr />
+          <li class="nav-link">Research</li>
+          <hr />
+          <li class="nav-link">Research team</li>
+          <hr />
+          <li class="nav-link">Facilities</li>
+          <hr />
+          <li class="nav-link">publication</li>
+          <hr />
+          <li class="nav-link">teaching</li>
+          <hr />
+          <li class="nav-link">Gallary</li>
+          <hr />
+        </ul>
       </nav>
     </header>
 
-    <div style="height: 1000px"></div>
+    <main></main>
 
     <footer class="bg-dark text-white">
       Copyright © 2022 Olowostan Lab – Made with ❤️ by Enigma
     </footer>
     <!-- Javascript links -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
