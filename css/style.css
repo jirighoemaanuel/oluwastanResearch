@@ -143,7 +143,7 @@ footer {
 }
 
 .welcome-header {
-  text-transform: capitalize;
+  text-transform: uppercase;
   padding: 30px 30px;
   background-color: var(--bg-color-1);
   height: 90px;
@@ -189,4 +189,33 @@ footer {
 
 .recent-posts {
   padding: 0 0.5rem;
+}
+
+.main {
+  font-size: small;
+  font-family: 'Raleway', sans-serif;
+  color: rgb(119, 119, 119);
+}
+
+.h3-head {
+  font-weight: bold;
+  font-size: medium;
+  padding: 0 1rem;
+}
+
+.top-list {
+  margin-top: 2rem;
+}
+
+.top-list li {
+  margin: 1rem;
+}
+
+.list {
+  list-style: circle;
+  padding: 0.5rem 4rem;
+}
+
+.list li {
+  margin: 0.5rem;
 }
