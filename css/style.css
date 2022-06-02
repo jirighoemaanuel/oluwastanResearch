@@ -125,7 +125,7 @@ nav {
 .nav-link {
   margin: 1rem;
   color: black;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 hr {
@@ -218,4 +218,8 @@ footer {
 
 .list li {
   margin: 0.5rem;
+}
+
+.research-list {
+  font-weight: bold;
 }
