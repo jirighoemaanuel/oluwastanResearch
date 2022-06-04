@@ -223,3 +223,18 @@ footer {
 .research-list {
   font-weight: bold;
 }
+
+.publications {
+  font-size: 0.89rem;
+  font-family: Monaco, Consolas;
+  color: rgb(233, 233, 233);
+  padding: 1rem 4rem;
+}
+
+.publication {
+  background-color: rgb(233, 233, 233);
+  color: rgb(41, 43, 44);
+  padding: 1.5rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
